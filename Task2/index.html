@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer and Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class="sts">
+        <h1> Stopwatch</h1>
+        <div id="timer">
+            <span id="hr" class="digit">00</span>
+            <span class="txt">hr</span>
+
+            <span id="min" class="digit">00</span>
+            <span class="txt">min</span>
+
+            <span id="sec" class="digit">00</span>
+            <span class="txt">sec</span>
+
+            <span id="count" class="digit">00</span>
+
+        </div>
+
+        <div id="button">
+            <button id="start" class="btn" onclick="start()">Start</button>
+            <button id="stop" class="btn" onclick="stop()">Stop</button>
+            <button id="reset" class="btn" onclick="reset()">Reset</button>
+            <button id="back" class="btn"> <a class="back-btn" href="./index1.html">Stoapwatch</a> </button>
+        </div>
+
+    </div>
+
+    <!-- Timer  -->
+
+    <div class="Unick">
+        <h2>TIMER</h2>
+        <div class="timer"></div>
+    </div>
+    <script src="main.js" type="module"></script>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js"
+        integrity="sha512-6DC1eE3AWg1bgitkoaRM1lhY98PxbMIbhgYCGV107aZlyzzvaWCW1nJW2vDuYQm06hXrW0As6OGKcIaAVWnHJw=="
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
